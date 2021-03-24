@@ -74,9 +74,7 @@ header.masthead {
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
-  background-image: url('../img/background_dark.png')
-  /* background: linear-gradient(0deg, #21a2fd 0%, #2147ff 100%); */
-  /* background: radial-gradient(rgb(79, 181, 253), #2147ff); */
+  background-image: url('../img/background_dark.png');
 }
 
 header.masthead .masthead-content {
@@ -198,6 +196,7 @@ header.masthead .bg-circle-4 {
   height: 100%;
 }
 #copy {
+  padding-left: 2.3rem;
   float:left;
   position: absolute;
   color: white;
@@ -552,6 +551,27 @@ textarea.input {
 
   .btn {
     padding: 0.45rem 1.2rem;
+  }
+  .display-4 {
+    font-size: 2em;
+    text-align: center;
+  }
+  .masthead-heading {
+    font-size: 3em !important;
+  }
+  .masthead-subheading {
+    font-size: 1.5em !important;
+  }
+  #info-me {
+    padding: 40px 10% 20px 10%;
+    line-height: 30px;
+    font-size: 1em;
+  }
+  .p-5 {
+    padding: 1em !important;
+  }
+  .masthead {
+    background-position: center center !important;
   }
 }
 
