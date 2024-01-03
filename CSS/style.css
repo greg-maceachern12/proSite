@@ -17,7 +17,7 @@ h6 {
     transition: 0.5s;
     font-weight: bolder;
     letter-spacing: 1px;
-    ;
+    text-decoration: ;
 }
 
 #link:hover {
@@ -427,6 +427,11 @@ textarea.input {
     opacity: 0.3;
 }
 
+.valueprop {
+    margin-top: 10px;
+    font-style: italic;
+}
+
 .big-circle {
     position: absolute;
     width: 500px;
@@ -558,3 +563,6 @@ textarea.input {
     color: black !important;
     font-weight: bold;
 }
+
+
+/* Cool Ripple Animation */
